@@ -1,7 +1,7 @@
 package org.lwt.dl.protocol.dlt645;
 public class Dlt645{
-public static String operatorcode = "00000000";//操作者代码
-	public static String password = "00000000";    //密码 
+public static String operatorcode = "????????";//操作者代码
+	public static String password = "????????";    //密码 
 	protected static String encode_dlt645_2007(String devicecode, int c, String hexdata) {
 		byte[] data=hexdata==null?new byte[0]:funs.fromhex(hexdata);
 		String tdev="0000000000000"+devicecode;
